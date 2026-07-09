@@ -10,7 +10,6 @@ class Circle(Shape):  # must inherit
     def area(self): return 3.14
 
 c = Circle()  # works
-c2 = Shape()  # ERROR - can't instantiate abstract class directly
 # If a child class forgets to implement `area()`, Python blocks you from creating the object — instant error.
 
 
