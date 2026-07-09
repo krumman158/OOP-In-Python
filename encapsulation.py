@@ -1,4 +1,4 @@
-#                    Encapsulation
+#                                             Encapsulation
 
 # Encapsulation helps to hide the internal implemetation details of a class by showing only necessary funcationalities.
 

@@ -5,7 +5,7 @@
 class InsufficientBalanceError(Exception):
     def __init__(self, message="Balance is too low"):
         self.message = message
-        super().__init__(self.message)
+        super().__init__(self.message) # parent class exception stores message as e to print error
 
 class Account:
     def __init__(self, balance):
@@ -13,7 +13,7 @@ class Account:
 
     def withdraw(self, amount):
         if amount > self.balance:
-            raise InsufficientBalanceError("Not enough funds!")
+            raise InsufficientBalanceError("Note enough funds")
         self.balance -= amount
 
 acc = Account(100)

@@ -1,4 +1,4 @@
-#                 @property
+#                                            @property
 # @property is a standard way of making getters in python.
 # we can use @property when we want to all objects to access attribuye by its name and we don't have to define setter and getter methods i:e u1.get_email etc.
 

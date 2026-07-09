@@ -1,4 +1,4 @@
-#                     Abstract Methods
+#                                           Abstract Methods
 
 # these method's definition is implemented in base class.
 from abc import ABC, abstractmethod
