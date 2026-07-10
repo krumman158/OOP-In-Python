@@ -5,7 +5,7 @@
 
 # frozen=True → makes the object immutable (can't change attributes after creation) — trying to modify raises an error. Also allows the object to be hashable (`__hash__`).
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 @dataclass(order=True, frozen=True)
 class Point:
